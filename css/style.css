@@ -37,17 +37,18 @@ button:hover {
 
 p#demo {
   color: rebeccapurple;
+  margin-bottom: 30px;
 }
 
 footer#copyright {
-    overflow: hidden;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 10px;
-    background: #ddd;
-    padding: 5px;
-    border-radius: 7px;
-    margin-bottom: 10px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 10px;
+  background: #ddd;
+  padding: 5px;
+  border-radius: 7px;
+  margin-bottom: 10px;
 }
