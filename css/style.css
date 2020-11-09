@@ -14,12 +14,6 @@ body {
   text-transform: capitalize;
 }
 
-.container {
-  width: 940px;
-  padding: 0px 15px;
-  margin: auto;
-}
-
 button {
   padding: 8px 20px;
   margin: 25px 0px;
@@ -37,12 +31,12 @@ button:hover {
 
 p#demo {
   color: rebeccapurple;
-  margin-bottom: 30px;
+  margin: 0px 10px 30px 10px;
 }
 
 footer#copyright {
   overflow: hidden;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
