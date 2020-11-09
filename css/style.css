@@ -23,6 +23,7 @@ button {
   color: white;
   outline: none;
   transition: 0.3s;
+  font-weight: bold;
 }
 
 button:hover {
