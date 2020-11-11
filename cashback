@@ -4,12 +4,13 @@
 
 <h3>A demonstration of how to access a Text Field</h3>
 
-<input type="text" id="balance" value="">
-<input type="text" id="cashback" value="">
+<input type="text" id="balance" value="" oninput="myFunction()"
+>
+<input type="text" id="cashback" value="" oninput="myFunction()">
 
 <p>Click the "Try it" button to get the text in the text field.</p>
 
-<button onclick="myFunction()">Try it</button>
+<button onchange="myFunction()">Try it</button>
 
 <p id="demo"></p>
 
