@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h3>A demonstration of how to access a Text Field</h3>
+
+<input type="text" id="balance" value="">
+<input type="text" id="cashback" value="">
+
+<p>Click the "Try it" button to get the text in the text field.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var balance = document.getElementById("balance").value;
+  var cashback = document.getElementById("cashback").value;
+  
+  var result = balance/100*cashback;
+
+  document.getElementById("demo").innerHTML = result;
+}
+</script>
+
+</body>
+</html>
